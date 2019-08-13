@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestngSuite">
+<test name="login">
+<parameter name="email" value="techfiosdemo@gmail.com"/>
+<parameter name="password" value="abc123"/>
+<classes>
+<class name="test.LoginTest"/>
+</classes>
+</test>
+
+<test name="AddContact">
+<parameter name="email" value="techfiosdemo@gmail.com"/>
+<parameter name="password" value="abc123"/>
+<parameter name="Name" value="shweta dahal"/>
+<parameter name="company" value="nokia"/>
+<parameter name="Email" value="sddahal@gmail.com"/>
+<parameter name="phone" value="2334567889"/>
+<parameter name="address" value="carob circle"/>
+<parameter name="city" value="denver"/>
+<parameter name="state" value="dallas"/>
+<parameter name="zip" value="11427"/>
+<parameter name="country" value="iceland"/>
+<classes>
+<class name="test.AddContactTest"/>
+</classes>
+</test>
+</suite>
+
+
+
